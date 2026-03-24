@@ -1,6 +1,10 @@
+int screenWidth = 128;
+int screenHeight = 64;
+int focal = 7;
 int xArray;
 int xyArray[2];
 int xyzArray[3];
+int xyrgbArray[5];
 
 // Credit: https://personal.math.ubc.ca/~cass/courses/m309-03a/a1/olafson/affine_fuctions.htm AND https://www.tutorialspoint.com/computer_graphics/computer_graphics_affine_transformation.htm
 int * affine(int x, int y, int z, int d)
